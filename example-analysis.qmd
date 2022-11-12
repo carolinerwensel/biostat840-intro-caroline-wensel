@@ -2,3 +2,55 @@
 title: "Example analysis"
 editor: visual
 ---
+
+add image here
+
+![](dairy.png){fig-align="center"}
+
+**Question**: How has consumption of dairy changed over time? (per person, by product type; Production of milk vs consumption of products - facet)
+
+**Intended audience**: Policy makers, government agencies, dairy farmers, the general public
+
+**Data and data directory**: https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-01-29
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,  warning=FALSE, message=FALSE)
+```
+
+### R packages used
+
+```{r}
+library(here)
+library(readxl)
+library(tidyverse)
+library(stringr)
+library(lubridate)
+library(tidytuesdayR)
+```
+
+### Data
+
+The original data and data dictionaries can be found here: https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-01-29
+
+```{r}
+if(!file.exists(here("data", "milkcow_facts.RDS"))){
+milkcow_facts <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-01-29/milkcow_facts.csv')
+milk_products_facts <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-01-29/milk_products_facts.csv')
+clean_cheese <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-01-29/clean_cheese.csv')
+state_milk_production <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-01-29/state_milk_production.csv')
+
+saveRDS(milkcow_facts, file = here("data", "milkcow_facts.RDS"))
+saveRDS(milk_products_facts, file = here("data", "milk_products_facts.RDS"))
+saveRDS(clean_cheese, file = here("data", "clean_cheese.RDS"))
+saveRDS(state_milk_production, file = here("data", "state_milk_production.RDS"))
+}
+
+milkcow_facts <- readRDS(here("data","milkcow_facts.RDS"))
+fluid_milk_facts <- read_excel(here("data","fluidmilk.xlsx"))
+milk_products_facts <- readRDS(here("data", "milk_products_facts.RDS"))
+clean_cheese <- readRDS(here("data", "clean_cheese.RDS"))
+state_milk_production <- readRDS(here("data", "state_milk_production.RDS"))
+ 
+```
+
+
