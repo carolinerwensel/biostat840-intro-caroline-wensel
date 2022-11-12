@@ -1,0 +1,39 @@
+---
+title: "About"
+---
+I am a third year Ph.D. candidate in Cellular and Molecular Medicine and mentored by Cynthia Sears, M.D. at the Johns Hopkins School of Medicine in Baltimore, MD. My doctoral work integrates multiple 'omics (genomics, transcriptomics, metabolomics) to determine how the colonic microbiota contribute to chronic disease. 
+
+Previously, I worked in obesity prevention as a Research Program Coordinator and Interventionst for multilevel, multicomponent obesity prevention trials in Baltimore City, Maryland, and on Native American reservations in the mid- and southwest United States.
+
+I'm passionate about preventing chronic disease by elucidating the mechanisms by which environmental exposures lead to disease, and promoting a healthy lifestyle through diet and physical activity.
+
+
+## Education
+
+Ph.D., Cellular and Molecular Medicine, Johns Hopkins School of Medicine (in progress)
+
+R.D., Johns Hopkins Hospital (2020)
+
+M.S.P.H., Human Nutrition, Johns Hopkins Bloomberg School of Public Health (2020)
+
+B.A., Neuroscience & Studio Art, College of Wooster (2014)
+ 
+ 
+## Research & Publications
+
+1. **Wensel CR**, Pluznick JL, Salzberg SL, Sears CL. Next-generation sequencing: insights to advance clinical investigations of the microbiome. *J Clin Invest.* 2022;132(7):e154944.
+
+2. Poirier L, Reznar MM, **Wensel CR**, Redmond LC, Treuth MS, Pardilla M, Swartz J, Gittelsohn J. Process Evaluation and Impact Results of the Worksite Component of a Multilevel, Multicomponent Obesity Prevention Trial in Six Native American Communities. *J Hunger Environ Nutr.* 2022;0(0):1-16.
+
+3. Fajarini IA, Matsuzaki M, Ruggiero CF, **Wensel CR**, Chung S, Hopkins L, Poirier L, Colón-Ramos U, Gittelsohn J. Low Healthy Diet Self-Efficacy and Intentions Associated with High Sweet Snacks and Sugar Sweetened Beverages Consumption among African American Adolescents Recruited from Low-Income Neighborhoods in Baltimore. *Nutrients.* 2021;13(12):4516.
+
+4. Estradé M, van Dongen EJI, Trude ABC, Poirier L, Fleischhacker S, **Wensel CR**, Redmond LC, Pardilla M, Swartz J, Treuth MS, Gittelsohn J. Exposure to a Multilevel, Multicomponent Obesity Prevention Intervention (OPREVENT2) in Rural Native American Communities: Variability and Association with Change in Diet Quality. *Int J Environ Res Public Health.* 2021;18(22):12128.
+
+5. Gittelsohn J, Jock B, Poirier L, **Wensel CR**, Pardilla M, Fleischhacker S, Bleich SN, Swartz J, Trude ACB. Implementation of a multilevel, multicomponent intervention for obesity control in Native American communities (OPREVENT2): challenges and lessons learned. *Health Educ Res.* 2020;35(3):228-242.
+
+6. Setiono FJ, Jock B, Trude ACB, **Wensel CR**, Poirier L, Pardilla M, Gittelsohn J. Associations between Food Consumption Patterns and Chronic Diseases and Self-Reported Morbidities in 6 American Indian Communities. *Curr Dev Nutr.* 2019;3(Supplement_2):69-80.
+
+7. **Wensel CR**, Trude ACB, Poirier L, Alghamdi R, Trujillo A, Anderson Steeves E, Paige D, Gittelsohn J. B’more Healthy Corner Stores for Moms and Kids: Identifying Optimal Behavioral Economic Strategies to Increase WIC Redemptions in Small Urban Corner Stores. *Int J Environ Res Public Health.* 2018;16(1).
+
+
+
