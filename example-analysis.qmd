@@ -11,7 +11,11 @@ csl: asm.csl
 
 **Intended audience**: Policy makers, government agencies, dairy farmers, the general public
 
-**Original data and data directory**: <https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-01-29>
+**Data and data directory**: The original data are from the USDA (United States Department of Agriculture). The data are also accessible via TidyTuesday. 
+<https://www.ers.usda.gov/data-products/dairy-data/documentation/#Loc3>
+<https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-01-29>
+
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE,  warning=FALSE, message=FALSE)
