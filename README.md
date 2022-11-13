@@ -4,4 +4,4 @@ Caroline is a Registered Dietitian Nutritionist and Ph.D. candidate in Cellular 
 
 The website was created using Quarto.
 
-Website link:
+Website link: https://carolinerwensel.github.io/biostat840-intro-caroline-wensel/
