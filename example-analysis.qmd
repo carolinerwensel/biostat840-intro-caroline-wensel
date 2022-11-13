@@ -13,10 +13,7 @@ csl: asm.csl
 
 **Data and data directory**: The original data are from the USDA (United States Department of Agriculture). The data are also accessible via TidyTuesday.
 
-<https://www.ers.usda.gov/data-products/dairy-data/documentation/#Loc3>
-<https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-01-29>
-
-
+<https://www.ers.usda.gov/data-products/dairy-data/documentation/#Loc3> <https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-01-29>
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE,  warning=FALSE, message=FALSE)
@@ -218,8 +215,8 @@ ggplot(aes(year, consumption)) +
         legend.key = element_blank())
 ```
 
-::: callout-note
-## Dairy consumption trends vary by product type 
+::: callout-important
+## Dairy consumption trends vary by product type
 Milk consumption has decreased, while cheese consumption has increased over time.
 :::
 
@@ -263,10 +260,12 @@ ggplot(aes(year, consumption)) +
 ```
 
 ### Results summary
-Milk production has increased over time. Wisconsin, Califorina, and New York are the top milk producing states and located in the top milk producing regions: the Lake States, Pacific, and Northeast, respectively. Interestingly, fluid milk consumption has decreased, while cheese consumption has increased over time. Increased cheese consumption appears to be primarily driven by the consumption of natural cheeses, and especially mozzarella. In the 1970s the an average person consumed less than 3 pounds of mozzarella per year; whereas, in 2017 the average person consumed nearly 12 pounds of mozzarella per year. 
+
+Milk production has increased over time. Wisconsin, Califorina, and New York are the top milk producing states and located in the top milk producing regions: the Lake States, Pacific, and Northeast, respectively. Interestingly, fluid milk consumption has decreased, while cheese consumption has increased over time. Increased cheese consumption appears to be primarily driven by the consumption of natural cheeses, and especially mozzarella. In the 1970s the an average person consumed less than 3 pounds of mozzarella per year; whereas, in 2017 the average person consumed nearly 12 pounds of mozzarella per year.
 
 ### Conslusions
-Overall, the results suggesting that production (supply) has continued to increase while consumption (demand) has decreased seem paradoxical; however there are other factors to consider. For decades, the U.S. government has subsidized the production of milk, regardless of consumer demand [@USDA]. This is one explanation for increased production but decreased consumption of dairy. However, what's leading to decreases in consumption? Lactose intolerance is prevalent, ranging from ~20-80% of the population and varying by ethnic group [@scrimshaw1988]. While these percentages have remained constant, we are becoming ever more aware that diet is related to health status [@micha2017]. Lactose intolerance and consumption of dairy in general have been linked to inflammation and various diseases [@bordoni2017; @ulven2019]. This has garnered significant public attention, yet many study results are contradictory and lead to confusion [@bordoni2017]. One possible explanation for increased cheese intake is that cheese is often better tolerated by lactose intolerant individuals because the fermentation process, necessary to make cheese from milk, results in decreased lactose content [@solomons2002]. More research into the immune modulating properties of food is required to better elucidate the relationship between dairy and health.   
+
+Overall, the results suggesting that production (supply) has continued to increase while consumption (demand) has decreased seem paradoxical; however there are other factors to consider. For decades, the U.S. government has subsidized the production of milk, regardless of consumer demand [@USDA]. This is one explanation for increased production but decreased consumption of dairy. However, what's leading to decreases in consumption? Lactose intolerance is prevalent, ranging from \~20-80% of the population and varying by ethnic group [@scrimshaw1988]. While these percentages have remained constant, we are becoming ever more aware that diet is related to health status [@micha2017]. Lactose intolerance and consumption of dairy in general have been linked to inflammation and various diseases [@bordoni2017; @ulven2019]. This has garnered significant public attention, yet many study results are contradictory and lead to confusion [@bordoni2017]. One possible explanation for increased cheese intake is that cheese is often better tolerated by lactose intolerant individuals because the fermentation process, necessary to make cheese from milk, results in decreased lactose content [@solomons2002]. More research into the immune modulating properties of food is required to better elucidate the relationship between dairy and health.
 
 ### Functions used
 
